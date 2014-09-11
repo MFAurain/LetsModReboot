@@ -1,6 +1,7 @@
 package com.mfaurain.letsmodreboot;
 
 import com.mfaurain.letsmodreboot.handler.ConfigurationHandler;
+import com.mfaurain.letsmodreboot.init.ModItems;
 import com.mfaurain.letsmodreboot.proxy.IProxy;
 import com.mfaurain.letsmodreboot.reference.Reference;
 import com.mfaurain.letsmodreboot.utility.LogHelper;
@@ -27,6 +28,7 @@ public class LetsModReboot
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         LogHelper.info("Pre-initialisation Complete!");
+        ModItems.init();
     }
 
     @Mod.EventHandler
