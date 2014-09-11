@@ -1,6 +1,6 @@
 package com.mfaurain.letsmodreboot.client.gui;
 
-import com.mfaurain.letsmodreboot.configuration.ConfigurationHandler;
+import com.mfaurain.letsmodreboot.handler.ConfigurationHandler;
 import com.mfaurain.letsmodreboot.reference.Reference;
 import cpw.mods.fml.client.config.GuiConfig;
 import net.minecraft.client.gui.GuiScreen;
