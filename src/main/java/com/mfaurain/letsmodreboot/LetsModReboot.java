@@ -1,6 +1,6 @@
 package com.mfaurain.letsmodreboot;
 
-import com.mfaurain.letsmodreboot.handler.ConfigurationHandler;
+import com.mfaurain.letsmodreboot.Handler.ConfigurationHandler;
 import com.mfaurain.letsmodreboot.init.ModItems;
 import com.mfaurain.letsmodreboot.proxy.IProxy;
 import com.mfaurain.letsmodreboot.reference.Reference;
